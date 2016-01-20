@@ -77,7 +77,6 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y atom
     sudo apt-get install -y bpython3
     sudo apt-get install -y idle3
-    sudo apt-get install -y ipython3
     sudo apt-get install -y pycharm
     sudo apt-get install -y sublime-text-installer
     sudo apt-get install -y vim-athena
