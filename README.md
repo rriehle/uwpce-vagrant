@@ -9,10 +9,12 @@ Prerequisites
 -------------
 
 1.  Install Virtual Box for your host operating system
-   https://www.virtualbox.org
+
+    https://www.virtualbox.org
 
 2.  Install Vagrant for your host operating system
-   https://www.vagrantup.com
+
+    https://www.vagrantup.com
 
 Installation Steps
 ------------------
