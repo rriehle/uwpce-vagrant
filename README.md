@@ -3,7 +3,7 @@ A vagrant build for a python development environment
 
 ![Image](screenshot.png?raw=true)
 
-One of the challenges we face in the program is getting everyone quickly up and running with a full fledged, feature rich, functional Python development environment.  Vagrant allows us to quickly build an virtual machine with everything we'll need.
+One of the challenges we face in the program is getting everyone quickly up and running with a full fledged, feature rich, functional Python development environment.  Vagrant allows us to quickly build a virtual machine with everything we'll need.
 
 The Vagrantfile in this repo will build an Ubuntu Linux virtual machine.  It should work on Linux, OS X or Windows so that by the end of the installation you will have an Ubuntu Linux virtual machine running on top of your host operating system, be it OS X, Windows, or another instance of Linux.
 
