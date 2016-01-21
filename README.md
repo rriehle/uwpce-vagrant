@@ -34,7 +34,8 @@ Installation Steps
 3.  Restart your new virtual computer and login:
 
     ```
-    $ vagrant halt
-    $ vagrant up
-    $ vagrant ssh
+    $ vagrant reload
     ```
+
+    Username: vagrant<br>
+    Password: vagrant
