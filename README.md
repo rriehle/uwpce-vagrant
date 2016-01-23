@@ -39,3 +39,10 @@ Installation Steps
 
     Username: vagrant<br>
     Password: vagrant
+
+Usability Notes
+---------------
+
+Disable screen saver and power management within the virtual machine.  These issues are best left to the host computer.
+
+![Image](screenshot-screensaver.png?raw=true)
