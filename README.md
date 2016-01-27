@@ -3,9 +3,21 @@ A vagrant build for a python development environment
 
 ![Image](screenshot.png?raw=true)
 
-One of the challenges we face in the program is getting everyone quickly up and running with a full fledged, feature rich, functional Python development environment.  Vagrant allows us to quickly build a virtual machine with everything we'll need.
+One of the challenges we face as developers on a team or as students in a classroom setting is getting everyone quickly up and running with a full fledged, feature rich, functional Python development environment.  Vagrant allows us to quickly build a virtual machine with everything we'll need.
 
-The Vagrantfile in this repo will build an Ubuntu Linux virtual machine.  It should work on Linux, OS X or Windows so that by the end of the installation you will have an Ubuntu Linux virtual machine running on top of your host operating system, be it OS X, Windows, or another instance of Linux.
+The Vagrantfile in this repo builds an Ubuntu Linux virtual machine.  It pre-installs the latest versions of programming editors and IDEs (Integrated Development Environments) and requires about 30 minutes to build on a fast network.  It should work on Linux, OS X or Windows so that by the end of the installation you will have an Ubuntu Linux virtual machine running on top of your host operating system, be it OS X, Windows, or another instance of Linux.
+
+Pre-installed Software
+----------------------
+
+*  [Atom](https://atom.io)
+*  [bpython](http://bpython-interpreter.org)
+*  [Emacs](https://www.gnu.org/software/emacs/)
+*  [IPython](http://ipython.org) and [Jupyter](http://jupyter.org)
+*  [PyCharm](https://www.jetbrains.com/pycharm/)
+*  [Sublime Text](http://www.sublimetext.com)
+*  [Vim](http://www.vim.org)
+*  ...and more
 
 Prerequisites
 -------------
