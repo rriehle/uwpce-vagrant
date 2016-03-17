@@ -10,13 +10,17 @@ The Vagrantfile in this repo builds an Ubuntu Linux virtual machine.  It pre-ins
 Pre-installed Software
 ----------------------
 
+*  [Python3](https://docs.python.org/3/)
 *  [Atom](https://atom.io)
 *  [bpython](http://bpython-interpreter.org)
 *  [Emacs](https://www.gnu.org/software/emacs/)
+*  [IDLE](https://docs.python.org/3/library/idle.html)
 *  [IPython](http://ipython.org) and [Jupyter](http://jupyter.org)
 *  [PyCharm](https://www.jetbrains.com/pycharm/)
 *  [Sublime Text](http://www.sublimetext.com)
 *  [Vim](http://www.vim.org)
+*  [Virtualenv](https://pypi.python.org/pypi/virtualenv)
+*  [Vritualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper)
 *  ...and more
 
 Prerequisites
