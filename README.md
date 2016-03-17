@@ -42,7 +42,7 @@ Installation Steps
 2.  Clone this repo, change into the directory and start the vagrant build:
 
     ```
-    $ git clone https://github.com/UWPCE-PythonCert/uwpce-vagrant.git
+    $ git clone https://github.com/rriehle/uwpce-vagrant.git
     $ cd uwpce-vagrant
     $ vagrant up
     ```
