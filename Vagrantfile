@@ -68,6 +68,7 @@ Vagrant.configure(2) do |config|
   config.vm.provision "shell", inline: <<-SHELL
     sudo add-apt-repository -y ppa:webupd8team/atom
     sudo add-apt-repository -y ppa:mystic-mirage/pycharm
+    sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
     sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
     sudo apt-get update
     sudo apt-get install -y lubuntu-desktop
@@ -79,6 +80,7 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y idle3
     sudo apt-get install -y pycharm
     sudo apt-get install -y sublime-text-installer
+    sudo apt-get install -y ubuntu-make
     sudo apt-get install -y vim-athena
     sudo apt-get install -y vim-python-jedi
     sudo apt-get install -y xemacs21
