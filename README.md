@@ -62,3 +62,10 @@ Usability Notes
 Disable screen saver and power management within the virtual machine.  These issues are best left to the host computer.
 
 ![Image](screenshot-screensaver.png?raw=true)
+
+Windows Issues
+--------------
+
+[Run Hyper-V and VirtualBox on the same machine](https://derekgusoff.wordpress.com/2012/09/05/run-hyper-v-and-virtualbox-on-the-same-machine/)  Tl;dr: You might need to disable Hyper-V when using VirtualBox.
+
+[Can't download boxes on Windows 10.](https://github.com/mitchellh/vagrant/issues/6754)  Tl;dr: You might need to download Microsoft's .NET Redistributable Framework.
