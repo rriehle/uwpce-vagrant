@@ -92,6 +92,8 @@ Vagrant.configure(2) do |config|
     sudo echo "autologin-user=vagrant" >> /etc/lightdm/lightdm.conf.d/20-lubuntu.conf
     sudo sed -i 's/allowed_users=.*$/allowed_users=anybody/' /etc/X11/Xwrapper.config
     sudo apt-get -y autoremove
+    sudo echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> /home/vagrant/.bashrc
+    sudo echo "source /usr/local/bin/virtualenvwrapper.sh" >> /home/vagrant/.bashrc
   SHELL
 
 end
