@@ -39,7 +39,7 @@ Installation Steps
 
 1.  Attach your computer to a fast network, attach your laptop to a power supply to prevent it from going to sleep, provide for up to four hours for the 'vagrant up' command to do its work.  When wired onto a fast home network 'vagrant up' might take only twenty minutes.
 
-2a.  First option: clone this repo, change into the directory and start the vagrant build:
+2.  First option: clone this repo, change into the directory and start the vagrant build:
 
     ```
     $ git clone https://github.com/rriehle/uwpce-vagrant.git
@@ -47,40 +47,10 @@ Installation Steps
     $ vagrant up
     ```
 
-2b.  Second option: if you don't have git installed on your local/target machine, download these files as a zip archive using the Clone or download button, unzip the files, change into the directory with the Vagrant file, and start the vagrant build.
+OR if you don't have git installed on your local/target machine, download these files as a zip archive using the Clone or download button above, unzip the files, change into the directory with the Vagrant file, and start the vagrant build.
 
-<div class="file-navigation in-mid-page">
 
-    <div class="select-menu get-repo-select-menu js-menu-container float-right select-menu-modal-right">
-  <button class="btn btn-sm btn-primary select-menu-button js-menu-target"
-    title="Clone or download this repository"
-    type="button" aria-label="Clone or download this repository" tabindex="0" aria-haspopup="true">
-    <span>Clone or download</span>
-  </button>
-
-  <div class="select-menu-modal-holder dropdown-menu-content js-menu-content" aria-hidden="true">
-    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container on">
-      <div class="clone-options https-clone-options">
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=push" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="hYd2rcUMxURGEOssCCO936DZkAXXR+wUUnvxKlg7Z06NCJQg7c53fsbK2QSlgKMi1IIaGfG9/NXfBpQmyS9b3w==" /></div><button class="btn-link btn-change-protocol js-toggler-target float-right" type="submit">Use SSH</button></form>
-
-        <h4 class="mb-1">
-          Clone with HTTPS
-          <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank">
-            <svg aria-hidden="true" class="octicon octicon-question" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
-          </a>
-        </h4>
-        <p class="mb-2 get-repo-decription-text">
-          Use Git or checkout with SVN using the web URL.
-        </p>
-
-        <div class="input-group js-zeroclipboard-container">
-  <input type="text" class="form-control input-monospace input-sm js-zeroclipboard-target js-url-field" value="https://github.com/rriehle/uwpce-vagrant.git" aria-label="Clone this repository at https://github.com/rriehle/uwpce-vagrant.git" readonly>
-  <div class="input-group-button">
-    <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><svg aria-hidden="true" class="octicon octicon-clippy" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg></button>
-  </div>
-</div>
-
-<!-- ![Image](zip-download.png?raw=true) -->
+![Image](zip-download.png?raw=true)
 
     ```
     $ cd uwpce-vagrant
