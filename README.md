@@ -47,14 +47,11 @@ Installation Steps
     $ vagrant up
     ```
 
-    OR if you do not have git installed on your local/target machine, download these files as a zip archive using the button above, unzip the files, change into the directory with the Vagrant file, and start the vagrant build.
-
-
-    ![Image](zip-download.png?raw=true)
+    OR if you do not have git installed on your local/target machine, download these files as a zip archive using the "Clone or download" button above, unzip the files, change into the directory with the Vagrant file, and start the vagrant build.
 
     ```
     $ cd uwpce-vagrant
-    #vagrant up
+    $ vagrant up
     ```
 
 3.  Restart your new virtual computer and login:
