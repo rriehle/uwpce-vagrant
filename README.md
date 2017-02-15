@@ -18,6 +18,7 @@ Pre-installed Software
 *  [IPython](http://ipython.org) and [Jupyter](http://jupyter.org)
 *  [PyCharm](https://www.jetbrains.com/pycharm/)
 *  [Sublime Text](http://www.sublimetext.com)
+*  [umake](https://wiki.ubuntu.com/ubuntu-make)
 *  [Vim](http://www.vim.org)
 *  [Virtualenv](https://pypi.python.org/pypi/virtualenv)
 *  [Vritualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper)
