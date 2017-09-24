@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "ubuntu/xenial64"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -46,10 +46,10 @@ Vagrant.configure(2) do |config|
   config.vm.provider "virtualbox" do |vb|
     # Display the VirtualBox GUI when booting the machine
     vb.gui = true
-  
+
     # Customize the amount of memory on the VM:
     vb.memory = "2048"
-    vb.name = "uwpce-python"
+    vb.name = "uwpce-xenial"
   end
 
   # View the documentation for the provider you are using for more
@@ -74,7 +74,7 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y lubuntu-desktop
     sudo apt-get install -y xfce4
     sudo apt-get install -y git
-    sudo apt-get install -y python3-dev python3-pip 
+    sudo apt-get install -y python3-dev python3-pip
     sudo apt-get install -y atom
     sudo apt-get install -y bpython3
     sudo apt-get install -y idle3
@@ -83,9 +83,10 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y ubuntu-make
     sudo apt-get install -y vim-athena
     sudo apt-get install -y vim-python-jedi
-    sudo apt-get install -y xemacs21
+    sudo apt-get install -y xemacs
+    sudo umake ide pycharm-professional
     sudo pip3 install --upgrade pip3
-    sudo pip3 install --upgrade virtualenv 
+    sudo pip3 install --upgrade virtualenv
     sudo pip3 install --upgrade virtualenvwrapper
     sudo pip3 install --upgrade jupyter
     sudo pip3 install --upgrade ipython
