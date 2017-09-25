@@ -12,7 +12,8 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "ubuntu/xenial64"
+  # config.vm.box = "ubuntu/xenial64"
+  config.vm.box = "bento/ubuntu-16.04"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -85,17 +86,23 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y vim-python-jedi
     sudo apt-get install -y emacs24
     sudo apt-get install -y xemacs24
-    sudo umake ide pycharm-professional
+    sudo pip install --upgrade pip
+    sudo pip install --upgrade beautifulsoup4
+    sudo pip install --upgrade html5lib
+    sudo umake ide pycharm-educational
     sudo pip3 install --upgrade pip
     sudo pip3 install --upgrade virtualenv
     sudo pip3 install --upgrade virtualenvwrapper
     sudo pip3 install --upgrade jupyter
     sudo pip3 install --upgrade ipython
-    sudo echo "autologin-user=ubuntu" >> /etc/lightdm/lightdm.conf.d/20-lubuntu.conf
-    # sudo sed -i 's/allowed_users=.*$/allowed_users=anybody/' /etc/X11/Xwrapper.config
+    # Set autologin for the vagrant user
+    # https://wiki.ubuntu.com/LightDM
+    sudo echo "[SeatDefaults]" >> /etc/lightdm/lightdm.conf.d/20-lubuntu.conf
+    sudo echo "autologin-user=vagrant" >> /etc/lightdm/lightdm.conf.d/20-lubuntu.conf
     sudo apt-get -y autoremove
-    sudo echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> /home/ubuntu/.bashrc
-    sudo echo "source /usr/local/bin/virtualenvwrapper.sh" >> /home/ubuntu/.bashrc
+    mkdir -p ~/.ssh
+    chmod 700 ~/.ssh
+    ssh-keyscan -H github.com >> ~/.ssh/known_hosts
   SHELL
 
 end
