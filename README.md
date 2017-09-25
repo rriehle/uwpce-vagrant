@@ -48,7 +48,7 @@ Installation Steps
     $ vagrant up
     ```
 
-    Or, second option, if you do not have git installed on your local/target machine, download these files as a zip archive using the "Clone or download" button above, unzip the files, change into the directory with the Vagrant file, and start the vagrant build.
+    Or, second option, if you do not have git installed on your local/host machine, download these files as a zip archive using the "Clone or download" button above, unzip the files, change into the directory with the Vagrant file, and start the vagrant build.
 
     ```
     $ cd uwpce-vagrant
@@ -63,6 +63,11 @@ Installation Steps
 
     Username: vagrant<br>
     Password: vagrant
+
+Installation Video
+------------------
+
+[![Watch the video](youtube.png?raw=true)](https://youtu.be/QEufOvEyGmk)
 
 Usability Notes
 ---------------
