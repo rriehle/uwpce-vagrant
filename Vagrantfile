@@ -67,7 +67,7 @@ Vagrant.configure(2) do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
     sudo add-apt-repository -y ppa:webupd8team/atom
-    sudo add-apt-repository -y ppa:mystic-mirage/pycharm
+    # sudo add-apt-repository -y ppa:mystic-mirage/pycharm
     sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
     sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
     sudo apt-get update
@@ -83,18 +83,19 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y ubuntu-make
     sudo apt-get install -y vim-athena
     sudo apt-get install -y vim-python-jedi
-    sudo apt-get install -y xemacs
+    sudo apt-get install -y emacs24
+    sudo apt-get install -y xemacs24
     sudo umake ide pycharm-professional
-    sudo pip3 install --upgrade pip3
+    sudo pip3 install --upgrade pip
     sudo pip3 install --upgrade virtualenv
     sudo pip3 install --upgrade virtualenvwrapper
     sudo pip3 install --upgrade jupyter
     sudo pip3 install --upgrade ipython
-    sudo echo "autologin-user=vagrant" >> /etc/lightdm/lightdm.conf.d/20-lubuntu.conf
-    sudo sed -i 's/allowed_users=.*$/allowed_users=anybody/' /etc/X11/Xwrapper.config
+    sudo echo "autologin-user=ubuntu" >> /etc/lightdm/lightdm.conf.d/20-lubuntu.conf
+    # sudo sed -i 's/allowed_users=.*$/allowed_users=anybody/' /etc/X11/Xwrapper.config
     sudo apt-get -y autoremove
-    sudo echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> /home/vagrant/.bashrc
-    sudo echo "source /usr/local/bin/virtualenvwrapper.sh" >> /home/vagrant/.bashrc
+    sudo echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> /home/ubuntu/.bashrc
+    sudo echo "source /usr/local/bin/virtualenvwrapper.sh" >> /home/ubuntu/.bashrc
   SHELL
 
 end
