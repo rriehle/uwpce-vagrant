@@ -67,7 +67,6 @@ Vagrant.configure(2) do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
     sudo add-apt-repository -y ppa:webupd8team/atom
-    # sudo add-apt-repository -y ppa:mystic-mirage/pycharm
     sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
     sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
     sudo apt-get update
