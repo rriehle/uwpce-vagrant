@@ -12,8 +12,7 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  # config.vm.box = "ubuntu/xenial64"
-  config.vm.box = "bento/ubuntu-16.04"
+    config.vm.box = "bento/ubuntu-14.04"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -50,7 +49,7 @@ Vagrant.configure(2) do |config|
 
     # Customize the amount of memory on the VM:
     vb.memory = "2048"
-    vb.name = "uwpce-xenial"
+    vb.name = "uwpce-trusty"
   end
 
   # View the documentation for the provider you are using for more
