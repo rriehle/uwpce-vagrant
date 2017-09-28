@@ -12,7 +12,8 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-    config.vm.box = "bento/ubuntu-14.04"
+  # config.vm.box = "bento/ubuntu-14.04"
+  config.vm.box = "ubuntu/trusty64"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -83,10 +84,9 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y vim-athena
     sudo apt-get install -y vim-python-jedi
     sudo apt-get install -y emacs24
-    sudo apt-get install -y xemacs24
-    sudo pip install --upgrade pip
-    sudo pip install --upgrade beautifulsoup4
-    sudo pip install --upgrade html5lib
+    # sudo pip install --upgrade pip
+    # sudo pip install --upgrade beautifulsoup4
+    # sudo pip install --upgrade html5lib
     sudo umake ide pycharm-educational
     sudo pip3 install --upgrade pip
     sudo pip3 install --upgrade virtualenv
